@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.product {
+    margin: 0 auto;
+}
+
+.tbl {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+TD, TH
+{
+    padding: 3px;
+    border: 1px solid black;
+}
+
+TH {
+    background: #b0e0e6;
+}
+
+.calc {
+    width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.sumRes {
+    font-size: 20px;
+}
+
+.menu {
+    margin: 40px auto 10px auto;
+    padding-left: 100px;
+}
+
+.menuItems {
+    margin: 0 6px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.custom-select {
+    width: 170px;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 6px;
+    vertical-align: top;
+}
+
+.inp {
+    width: 60px;
+}
+
+.morethan {
+    width: 40px;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.twenty {
+    width: 60px;
+}
+
+#ourForm {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#err {
+    font-size: 24px;
+    font-weight: bolder;
+    display: inline-block;
+    color:rgb(255, 0, 0)
+
+
+}
+
+#wrp {
+    margin: 0 auto;
+    text-align: center;
+   
+}
