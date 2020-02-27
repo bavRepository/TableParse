@@ -61,7 +61,7 @@ window.onload = function () {
       } else {
         var response = JSON.parse(data);
         getDel();
-        createTableБан выдан правомерно. Ошибки со стороны модератора нет.(response);
+        createTable(response);
       }
     });
   }
@@ -77,9 +77,9 @@ function ajaxPost(url, params, callback) {
     // code for IE6, IE5
     request = new ActiveXObject("Microsoft.XMLHTTP");
   }
-  // && request.status == 200
+
   request.onreadystatechange = function () {
-    if (request.readyState == 4) {
+    if (request.readyState == 4 && request.status == 200) {
       dataBack(request.responseText);
     }
   };
